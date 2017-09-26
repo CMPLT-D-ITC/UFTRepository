@@ -1,0 +1,1 @@
+﻿var __testDataSource={items:[{dataFilePath:'Default.xls',dataFileFormat:'excel',dataFileFolder:'C:\\Working\\Git_UFT\\UFTRepository\\tests\\GUITest',namePairs:[]}]};
