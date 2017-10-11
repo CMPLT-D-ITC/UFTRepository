@@ -14,6 +14,17 @@ namespace Script
     [Serializable()]
     public class TestUserCode : TestEntities
     {
-    } 
+    	
+    	/// <summary>
+    	/// Handler for the CodeActivity4 Activity’s ExecuteEvent event.
+    	/// </summary>
+    	/// <param name=\"sender\">The activity object that raised the ExecuteEvent event.</param>
+    	/// <param name=\"args\">The event arguments passed to the activity.</param>
+    	/// Use this.CodeActivity4 to access the CodeActivity4 Activity's context, including input and output properties.
+    	public void CodeActivity4_OnExecuteEvent(object sender, STActivityBaseEventArgs args)
+    	{
+    		//TODO: Add your code here...
+    	}
+} 
 
 }
