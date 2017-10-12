@@ -23,7 +23,7 @@ namespace Script
     	/// Use this.CodeActivity4 to access the CodeActivity4 Activity's context, including input and output properties.
     	public void CodeActivity4_OnExecuteEvent(object sender, STActivityBaseEventArgs args)
     	{
-    		//TODO: Add your code here...
+    		//TODO: Add your code here... 
     	}
 } 
 
