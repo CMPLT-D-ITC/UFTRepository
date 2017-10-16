@@ -12,7 +12,7 @@ namespace Script
 	using HP.ST.Ext.CustomDataProviders.ExcelFileArguments;
     
     [Serializable()]
-    public class TestUserCode : TestEntities
+    public class TestUserCode : TestEntities 
     {
     	
     	/// <summary>
