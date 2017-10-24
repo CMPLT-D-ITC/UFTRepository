@@ -136,9 +136,9 @@
 <Step rID="T2">
 <Obj plainTxt="False" ><![CDATA[Start]]></Obj>
 <Details plainTxt="False" ><![CDATA[]]></Details>
-<Time><![CDATA[16.10.2017 - 13:18:46]]></Time>
-<TimeTick>1508149126</TimeTick>
-<NodeArgs eType="Replay" icon="46" nRep="5" StepFlowItemKey="StartActivity1" >
+<Time><![CDATA[24.10.2017 - 18:36:00]]></Time>
+<TimeTick>1508859360</TimeTick>
+<NodeArgs eType="Replay" icon="74" nRep="5" StepFlowItemKey="StartActivity1" >
 <Disp><![CDATA[Start]]></Disp>
 <BtmPane vType="HTML" >
 <Path><![CDATA[Data\Step0.xml]]></Path>
@@ -148,39 +148,39 @@
 <Step rID="T3">
 <Obj plainTxt="False" ><![CDATA[Test Flow]]></Obj>
 <Details plainTxt="False" ><![CDATA[]]></Details>
-<Time><![CDATA[16.10.2017 - 13:18:46]]></Time>
-<TimeTick>1508149126</TimeTick>
+<Time><![CDATA[24.10.2017 - 18:36:00]]></Time>
+<TimeTick>1508859360</TimeTick>
 <Action rID="T4">
 <AName><![CDATA[]]></AName>
 <AIter rID="T5" iterID="1" isCountable="True" >
 <Step rID="T6">
 <Obj plainTxt="False" ><![CDATA[Custom Code4]]></Obj>
 <Details plainTxt="False" ><![CDATA[]]></Details>
-<Time><![CDATA[16.10.2017 - 13:18:46]]></Time>
-<TimeTick>1508149126</TimeTick>
-<NodeArgs eType="Replay" icon="46" nRep="9" StepFlowItemKey="CodeActivity4" >
+<Time><![CDATA[24.10.2017 - 18:36:00]]></Time>
+<TimeTick>1508859360</TimeTick>
+<NodeArgs eType="Replay" icon="74" nRep="9" StepFlowItemKey="CodeActivity4" >
 <Disp><![CDATA[Custom Code4]]></Disp>
 <BtmPane vType="HTML" >
 <Path><![CDATA[Data\Step1.xml]]></Path>
 </BtmPane>
 </NodeArgs>
 </Step>
-<NodeArgs eType="StartIteration" icon="48" nRep="8" StepFlowItemKey="Loop2" >
+<NodeArgs eType="StartIteration" icon="76" nRep="8" StepFlowItemKey="Loop2" >
 <Disp><![CDATA[Iteration 1]]></Disp>
 <BtmPane vType="HTML" >
 <Path><![CDATA[Data\Step2.xml]]></Path>
 </BtmPane>
 </NodeArgs>
 </AIter>
-<Summary sTime="16.10.2017 - 13:18:46" eTime="16.10.2017 - 13:18:46" passed="0" failed="0" warnings="0" ></Summary>
-<NodeArgs eType="StartAction" icon="47" nRep="7" >
+<Summary sTime="24.10.2017 - 18:36:00" eTime="24.10.2017 - 18:36:00" passed="0" failed="0" warnings="0" ></Summary>
+<NodeArgs eType="StartAction" icon="75" nRep="7" >
 <Disp><![CDATA[ Summary]]></Disp>
 <BtmPane vType="HTML" >
 <Path><![CDATA[Data\Step2.xml]]></Path>
 </BtmPane>
 </NodeArgs>
 </Action>
-<NodeArgs eType="Replay" icon="46" nRep="6" StepFlowItemKey="Loop2" >
+<NodeArgs eType="Replay" icon="74" nRep="6" StepFlowItemKey="Loop2" >
 <Disp><![CDATA[Test Flow]]></Disp>
 <BtmPane vType="HTML" >
 <Path><![CDATA[Data\Step3.xml]]></Path>
@@ -190,17 +190,17 @@
 <Step rID="T7">
 <Obj plainTxt="False" ><![CDATA[End]]></Obj>
 <Details plainTxt="False" ><![CDATA[]]></Details>
-<Time><![CDATA[16.10.2017 - 13:18:46]]></Time>
-<TimeTick>1508149126</TimeTick>
-<NodeArgs eType="Replay" icon="46" nRep="12" StepFlowItemKey="EndActivity3" >
+<Time><![CDATA[24.10.2017 - 18:36:00]]></Time>
+<TimeTick>1508859360</TimeTick>
+<NodeArgs eType="Replay" icon="74" nRep="12" StepFlowItemKey="EndActivity3" >
 <Disp><![CDATA[End]]></Disp>
 <BtmPane vType="HTML" >
 <Path><![CDATA[Data\Step4.xml]]></Path>
 </BtmPane>
 </NodeArgs>
 </Step>
-<Summary sTime="16.10.2017 - 13:18:46" eTime="16.10.2017 - 13:18:46" passed="0" failed="0" warnings="0" ></Summary>
-<NodeArgs eType="StartTest" icon="45" nRep="4" >
+<Summary sTime="24.10.2017 - 18:36:00" eTime="24.10.2017 - 18:36:00" passed="0" failed="0" warnings="0" ></Summary>
+<NodeArgs eType="StartTest" icon="73" nRep="4" >
 <Disp><![CDATA[Test APITest1 Summary]]></Disp>
 </NodeArgs>
 </Doc>
