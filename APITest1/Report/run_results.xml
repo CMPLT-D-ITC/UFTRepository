@@ -5,12 +5,12 @@
 <Data>
     <Name>Start</Name>
     <Description />
-    <StartTime>2017-10-24 18:36:00</StartTime>
+    <StartTime>2017-10-26 11:18:09</StartTime>
     <Result>Done</Result>
     <Extension>
       <BottomFilePath>Data\Step0.xml</BottomFilePath>
       <HtmlBottomFilePath>.\\\Data\\Step0.js</HtmlBottomFilePath>
-      <IconKey>85fb6a53bea94beeaf7e56c6aefe9ce0</IconKey>
+      <IconKey>db046b4b50eb44ef8fe3242f222d66d9</IconKey>
     </Extension>
   </Data>
 </ReportNode>
@@ -21,25 +21,25 @@
 <Data>
     <Name>Custom Code4</Name>
     <Description />
-    <StartTime>2017-10-24 18:36:00</StartTime>
+    <StartTime>2017-10-26 11:18:10</StartTime>
     <Result>Done</Result>
     <Extension>
       <BottomFilePath>Data\Step1.xml</BottomFilePath>
       <HtmlBottomFilePath>.\\\Data\\Step1.js</HtmlBottomFilePath>
-      <IconKey>85fb6a53bea94beeaf7e56c6aefe9ce0</IconKey>
+      <IconKey>db046b4b50eb44ef8fe3242f222d66d9</IconKey>
     </Extension>
   </Data>
 </ReportNode>
 <Data>
     <Name>Iteration 1</Name>
     <Description />
-    <StartTime>2017-10-24 18:36:00</StartTime>
+    <StartTime>2017-10-26 11:18:10</StartTime>
     <Duration>0</Duration>
     <Result>Done</Result>
     <Extension>
       <BottomFilePath>Data\Step2.xml</BottomFilePath>
       <HtmlBottomFilePath>.\\\Data\\Step2.js</HtmlBottomFilePath>
-      <IconKey>eb73538f2d6749c6a6e19ed6c6d8685f</IconKey>
+      <IconKey>2a0e0b2fb13d471eacb0555798e90b05</IconKey>
     </Extension>
     <TestedApplications />
   </Data>
@@ -47,27 +47,27 @@
 <Data>
     <Name />
     <Description />
-    <StartTime>2017-10-24 18:36:00</StartTime>
+    <StartTime>2017-10-26 11:18:10</StartTime>
     <Duration>0</Duration>
     <Result>Done</Result>
     <InputParameters />
     <Extension>
       <BottomFilePath>Data\Step2.xml</BottomFilePath>
       <HtmlBottomFilePath>.\\\Data\\Step2.js</HtmlBottomFilePath>
-      <IconKey>4890e683cb4945618122039f2480f2b4</IconKey>
+      <IconKey>4fcf3c699df14b019326c7c30aeb4e8c</IconKey>
     </Extension>
   </Data>
 </ReportNode>
 <Data>
     <Name>Test Flow</Name>
     <Description />
-    <StartTime>2017-10-24 18:36:00</StartTime>
+    <StartTime>2017-10-26 11:18:10</StartTime>
     <Duration>0</Duration>
     <Result>Done</Result>
     <Extension>
       <BottomFilePath>Data\Step3.xml</BottomFilePath>
       <HtmlBottomFilePath>.\\\Data\\Step3.js</HtmlBottomFilePath>
-      <IconKey>85fb6a53bea94beeaf7e56c6aefe9ce0</IconKey>
+      <IconKey>db046b4b50eb44ef8fe3242f222d66d9</IconKey>
     </Extension>
   </Data>
 </ReportNode>
@@ -75,12 +75,12 @@
 <Data>
     <Name>End</Name>
     <Description />
-    <StartTime>2017-10-24 18:36:00</StartTime>
+    <StartTime>2017-10-26 11:18:10</StartTime>
     <Result>Done</Result>
     <Extension>
       <BottomFilePath>Data\Step4.xml</BottomFilePath>
       <HtmlBottomFilePath>.\\\Data\\Step4.js</HtmlBottomFilePath>
-      <IconKey>85fb6a53bea94beeaf7e56c6aefe9ce0</IconKey>
+      <IconKey>db046b4b50eb44ef8fe3242f222d66d9</IconKey>
     </Extension>
   </Data>
 </ReportNode>
@@ -89,12 +89,12 @@
     <ToolName>HP Unified Functional Testing</ToolName>
     <ToolVersion>14.0</ToolVersion>
     <Description />
-    <StartTime>2017-10-24 18:36:00</StartTime>
-    <Duration>0</Duration>
+    <StartTime>2017-10-26 11:18:09</StartTime>
+    <Duration>1</Duration>
     <Result>Done</Result>
     <InputParameters />
     <Extension>
-      <IconKey>8df0b8df7289442daabddd9107dc4542</IconKey>
+      <IconKey>0051e4820543415a9ef2ded99d9ca7bd</IconKey>
       <IsPlainTextNodeName>True</IsPlainTextNodeName>
     </Extension>
     <Environment>
@@ -115,7 +115,7 @@
 </ReportNode>
 <GeneralInfo>
     <ResultName />
-    <RunStartTime>2017-10-24 18:36:00</RunStartTime>
+    <RunStartTime>2017-10-26 11:18:09</RunStartTime>
     <Timezone>+03:00:00</Timezone>
     <OrchestrationToolName>HP Unified Functional Testing</OrchestrationToolName>
     <OrchestrationToolVersion>14.0</OrchestrationToolVersion>

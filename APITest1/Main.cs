@@ -92,8 +92,9 @@
         	_flow.StartActivity1 = new HP.ST.Ext.BasicActivities.StartActivity(_context,"StartActivity1");
             _flow.Loop2 = new HP.ST.Fwk.RunTimeFWK.CompositeActivities.Loop<Loop2Input>(_context,"Loop2",LoopType.For);
             _flow.EndActivity3 = new HP.ST.Ext.BasicActivities.EndActivity(_context,"EndActivity3");
-            _flow.Sequence5 = new HP.ST.Fwk.RunTimeFWK.CompositeActivities.Sequence(_context,"Sequence5");
+            _flow.Sequence7 = new HP.ST.Fwk.RunTimeFWK.CompositeActivities.Sequence(_context,"Sequence7");
             _flow.CodeActivity4 = new HP.ST.Ext.BasicActivities.CodeActivity<CodeActivity4Input,CodeActivity4Output>(_context,"CodeActivity4");
+            _flow.ReportMessageActivity5 = new HP.ST.Ext.BasicActivities.ReportMessageActivity(_context,"ReportMessageActivity5");
             _flow.StartActivity1.Comment = @"";
             _flow.StartActivity1.IconPath = @"AddIns\ServiceTest\BasicActivities\toolbox_code_activity.png";
             _flow.StartActivity1.Name = @"Start";
@@ -118,20 +119,27 @@
             _flow.Loop2.Comment = @"";
             _flow.Loop2.IconPath = @"AddIns\ServiceTest\BasicActivities\toolbox_loop.png";
             _flow.Loop2.Name = @"Test Flow";
-            _flow.Loop2.Activities.Add (_flow.Sequence5);
+            _flow.Loop2.Activities.Add (_flow.Sequence7);
             this.Activities.Add (_flow.Loop2);
             _flow.EndActivity3.Comment = @"";
             _flow.EndActivity3.IconPath = @"AddIns\ServiceTest\BasicActivities\toolbox_code_activity.png";
             _flow.EndActivity3.Name = @"End";
             this.Activities.Add (_flow.EndActivity3);
-            _flow.Sequence5.Comment = @"";
-            _flow.Sequence5.IconPath = @"";
-            _flow.Sequence5.Name = @"Sequence5";
-            _flow.Sequence5.Activities.Add (_flow.CodeActivity4);
+            _flow.Sequence7.Comment = @"";
+            _flow.Sequence7.IconPath = @"";
+            _flow.Sequence7.Name = @"Sequence7";
+            _flow.Sequence7.Activities.Add (_flow.CodeActivity4);
+            _flow.Sequence7.Activities.Add (_flow.ReportMessageActivity5);
             _flow.CodeActivity4.Comment = @"";
             _flow.CodeActivity4.IconPath = @"AddIns\ServiceTest\BasicActivities\toolbox_code_activity.png";
             _flow.CodeActivity4.Name = @"Custom Code4";
             _flow.CodeActivity4.ExecuteEvent += _userCode.CodeActivity4_OnExecuteEvent;
+            _flow.ReportMessageActivity5.Status = @"Fail";
+            _flow.ReportMessageActivity5.Message = @"SO SO !!!";
+            _flow.ReportMessageActivity5.Destination = @"ReportAndOutput";
+            _flow.ReportMessageActivity5.Comment = @"";
+            _flow.ReportMessageActivity5.IconPath = @"AddIns\ServiceTest\BasicActivities\toolbox_report_message.png";
+            _flow.ReportMessageActivity5.Name = @"Report Message5";
             
         }
         

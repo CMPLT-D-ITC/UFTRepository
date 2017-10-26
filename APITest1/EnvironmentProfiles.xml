@@ -44,7 +44,7 @@
     <VarName>LocalHostName</VarName>
     <IsSystem>true</IsSystem>
     <Description />
-    <SystemProfile>NB-SPB-ITC17</SystemProfile>
+    <SystemProfile>WIN-O12UC5PNU90</SystemProfile>
   </Profiles>
   <Profiles>
     <VarName>OS</VarName>
@@ -56,7 +56,7 @@
     <VarName>OSVersion</VarName>
     <IsSystem>true</IsSystem>
     <Description />
-    <SystemProfile>Microsoft Windows NT 6.1.7601 Service Pack 1</SystemProfile>
+    <SystemProfile>Microsoft Windows NT 6.3.9600.0</SystemProfile>
   </Profiles>
   <Profiles>
     <VarName>ProductDir</VarName>
@@ -80,13 +80,13 @@
     <VarName>UserName</VarName>
     <IsSystem>true</IsSystem>
     <Description />
-    <SystemProfile>panov_mv</SystemProfile>
+    <SystemProfile>Administrator</SystemProfile>
   </Profiles>
   <Profiles>
     <VarName>CurrentDate</VarName>
     <IsSystem>true</IsSystem>
     <Description />
-    <SystemProfile>11.10.2017 18:49:53</SystemProfile>
+    <SystemProfile>26.10.2017 11:34:42</SystemProfile>
   </Profiles>
   <Profiles>
     <VarName>QcUrl</VarName>
