@@ -134,7 +134,7 @@
             _flow.CodeActivity4.IconPath = @"AddIns\ServiceTest\BasicActivities\toolbox_code_activity.png";
             _flow.CodeActivity4.Name = @"Custom Code4";
             _flow.CodeActivity4.ExecuteEvent += _userCode.CodeActivity4_OnExecuteEvent;
-            _flow.ReportMessageActivity5.Status = @"Fail";
+            _flow.ReportMessageActivity5.Status = @"Done";
             _flow.ReportMessageActivity5.Message = @"SO SO !!!";
             _flow.ReportMessageActivity5.Destination = @"ReportAndOutput";
             _flow.ReportMessageActivity5.Comment = @"";
